@@ -1,0 +1,45 @@
+<svg width="260" height="260" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Favicon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-11206 183)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 11206 -183L 11466 -183L 11466 77L 11206 77L 11206 -183Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Favicon" clip-path="url(#clip-0)">
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11288 -82.7277)" fill="#333333"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11325.9 -82.7766)" fill="#2F80ED"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11357.8 -47.2256)" fill="#BB6BD9"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11289.4 23.7788)" fill="#EB5757"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11325.9 23.7788)" fill="#F2C94C"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(11357.8 -11.7234)" fill="#27AE60"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-4.36458e-08 -1 1 -4.3777e-08 11288 -91.057)" fill="#333333"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.75541e-08 8.72917e-08 -1 11351.8 -21.0043)" fill="#333333"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.75541e-08 8.72917e-08 -1 11351.8 14.4979)" fill="#333333"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 26.1819 13.1106C 26.1819 20.3514 20.3209 26.2212 13.091 26.2212C 5.86102 26.2212 0 20.3514 0 13.1106C 0 5.86982 5.86102 0 13.091 0C 20.3209 0 26.1819 5.86982 26.1819 13.1106Z"/>
+<path id="path1_fill" d="M 0 13.091C 0 5.86102 5.86102 0 13.091 0L 50.8521 0C 58.082 0 63.943 5.86102 63.943 13.091L 63.943 13.091C 63.943 20.3209 58.082 26.1819 50.8521 26.1819L 13.091 26.1819C 5.86102 26.1819 0 20.3209 0 13.091L 0 13.091Z"/>
+<path id="path2_fill" d="M 0 13.1106C 0 5.86982 5.86982 0 13.1106 0L 50.7365 0C 57.9773 0 63.8471 5.86982 63.8471 13.1106L 63.8471 13.1106C 63.8471 20.3514 57.9773 26.2212 50.7365 26.2212L 13.1106 26.2212C 5.86982 26.2212 0 20.3514 0 13.1106L 0 13.1106Z"/>
+</defs>
+</svg>

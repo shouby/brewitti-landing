@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Brewitti</title>
+    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
+    <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
+    <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#663fb5">
+    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#663fb5">
+    <link rel="stylesheet" href="css/landio.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400,500,600,700" rel="stylesheet">
+    <style type="text/css">
+      
+    .section-definition {
+      color: #ffffff;
+      animation: colorchange 25s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 25s; /* Chrome and Safari */
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    .section-definition .display-1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      font-family: "Encode Sans";
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #2F80ED;}
+      25%  {background: #F2C94C;}
+      50%  {background: #BB6BD9;}
+      75%  {background: #27AE60;}
+      100% {background: #EB5757;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #2F80ED;}
+      25%  {background: #F2C94C;}
+      50%  {background: #BB6BD9;}
+      75%  {background: #27AE60;}
+      100% {background: #EB5757;}
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation
+    ================================================== -->
+
+    <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span><img src="img/logo.svg" style="width: 160px;"></span>
+          <span class="sr-only">Brewitti</span>
+        </a>
+        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+        &#9776;
+      </a>
+        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
+          <span class="icon-user"></span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section
+    ================================================== -->
+
+    <header class="jumbotron  text-xs-center center-vertically" role="banner">
+      <div class="container">
+        <h1 class="display-2">Life is short.<br> Let less be more.</h1>
+        <h2 class="m-b-3">We are the click bait <em>Killer!</em></h2>
+        <a class="btn btn-primary-outline m-b-1 nav-link" href="#intro-section" role="button"><span class="icon-caret-down"></span>Here's How</a>
+      </div>
+    </header>
+
+    <!-- Intro
+    ================================================== -->
+
+    <section class="section-intro bg-faded text-xs-center" id="intro-section">
+      <div class="container">
+        <h3 class="wp wp-1">Concise News Reporting</h3>
+        <p class="lead wp wp-2">Each news story is delivered in 3 sentences. No more, no less. Straight to your lock screen. Built for the age of mobile</p>
+        <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
+      </div>
+    </section>
+
+    <!-- Features
+    ================================================== -->
+
+    <section class="section-features text-xs-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <span class="icon-pen display-1"></span>
+                <h4 class="card-title">News</h4>
+                <h6 class="card-subtitle text-muted">Get Brewitted!</h6>
+                <p class="card-text">For the busy bees, the working elite and millennials, concise news stories tailored into 3 sentences each, is what’ll separate signal from the noise, out in the age of information overload.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <span class="icon-thunderbolt display-1"></span>
+                <h4 class="card-title">Trends</h4>
+                <h6 class="card-subtitle text-muted">Made to follow</h6>
+                <p class="card-text">For the well-informed global netizen who likes to ride the tide. Realtime video reporting for the visual aficionado.
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card m-b-0">
+              <div class="card-block">
+                <span class="icon-heart display-1"></span>
+                <h4 class="card-title">Feeds</h4>
+                <h6 class="card-subtitle text-muted">Get them personalized</h6>
+                <p class="card-text">Control the number of news stories you wish to receive as notifications. Choose from a wide range of categories including politics, sports, entertainment, business, technology and world news. 
+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Definition
+    ================================================== -->
+
+    <section class="section-definition text-xs-center center-vertically" role="banner">
+      <div class="container">
+        <img src="img/mark-logo.svg" style="width: 80px;margin:0 0 7% 0;">
+        <h1 class="display-1">Brewitti (noun); the quality of expressing much in few words.</h1>
+      </div>
+    </section>
+   
+
+    <!-- Sign Up
+    ================================================== -->
+
+    <section class="section-signup bg-faded">
+      <div class="container">
+        <h3 class="text-xs-center m-b-3">Be the First to Join our Beta!</h3>
+        <form>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-6 col-xl-3">
+              <div class="form-group has-icon-left form-control-name">
+                <label class="sr-only" for="inputName">Your name</label>
+                <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="form-group has-icon-left form-control-email">
+                <label class="sr-only" for="inputEmail">Email address</label>
+                <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer
+    ================================================== -->
+
+    <footer class="section-footer bg-inverse" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="media">
+              <div class="media-left">
+                <img src="img/logo-mark-white.svg" style="width: 20px;">
+              </div>
+              <small class="media-body media-bottom">
+                &copy; Brewitti 2018. <br>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/landio.min.js"></script>
+  </body>
+</html>
