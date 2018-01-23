@@ -88,12 +88,63 @@
     margin-top: 4em;}
 
     section.section-comingsoon {
-    padding: 5.63em;
+    padding: 5.63rem 1rem;
 	}
 
 	section.section-comingsoon h2{
 		font-size: 2em;
 		font-family: "Encode Sans";}
+
+    .section-intro h3{font-size: 2em;}
+    .section-intro p{font-size: 1.11111em}
+
+    .section-definition h1{
+      color: #ffffff; 
+      font-size: 2em; 
+      font-weight: 500; 
+      line-height: 2;
+    }
+
+    .section-definition .container img{
+      width: 50px;
+      margin:0 0 7% 0;
+    }
+
+
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { ... }
+
+    /* Landscape phones and down */
+    @media (max-width: 480px) { 
+
+      .display-2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 
+      }
+
+      .jumbotron{
+        padding: 15.25rem 1rem 10rem 1rem;
+      }
+
+      .navbar-brand{
+        float: none;
+      }
+
+      .section-intro h3{font-size: 1.3em;}
+      .section-intro p{font-size: 1em}
+
+      .section-definition h1{
+        color: #ffffff; 
+        font-size: 1em; 
+        font-weight: 500; 
+        line-height: 2;
+      }
+
+      .section-definition .container{padding-top: 10rem}
+
+     }
+
 
     </style>
 
@@ -115,16 +166,10 @@
     ================================================== -->
 
     <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
-      <div class="container">
+      <div class="container text-xs-center">
         <a class="navbar-brand" href="#">
           <span><img src="img/logo.svg" style="width: 160px;"></span>
           <span class="sr-only">Brewitti</span>
-        </a>
-        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
-        &#9776;
-      </a>
-        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
-          <span class="icon-user"></span>
         </a>
       </div>
     </nav>
@@ -145,8 +190,8 @@
 
     <section class="section-intro bg-faded text-xs-center" id="intro-section">
       <div class="container">
-        <h3 class="wp wp-1" style="font-size: 2em;">Concise News Reporting</h3>
-        <p class="lead wp wp-2" style="font-size: 1.11111em">Each news story is delivered in 3 sentences. No more, no less. Straight to your lock screen. Built for the age of mobile.</p>
+        <h3 class="wp wp-1">Concise News Reporting</h3>
+        <p class="lead wp wp-2">Each news story is delivered in 3 sentences. No more, no less. Straight to your lock screen. Built for the age of mobile.</p>
         <img src="img/mock.png" alt="iPad mock" class="img-fluid wp wp-3">
       </div>
     </section>
@@ -209,8 +254,8 @@
 		"img/5.jpg"
 	]' role="banner">
       <div class="container">
-        <img src="img/logo-mark-white.svg" style="width: 50px;margin:0 0 7% 0;">
-        <h1  style="color: #ffffff; font-size: 2em; font-weight: 500; line-height: 2;">Brewitti (noun); <br><em>the quality of expressing much in few words.</em></h1>
+        <img src="img/logo-mark-white.svg">
+        <h1>Brewitti (noun); <br><em>the quality of expressing much in few words.</em></h1>
       </div>
     </section>
    
