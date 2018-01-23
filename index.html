@@ -30,15 +30,34 @@
     <link rel="stylesheet" href="css/landio.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400,500,600,700" rel="stylesheet">
     <style type="text/css">
-      
-    .section-definition {
-      color: #ffffff;
-      animation: colorchange 25s; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 25s; /* Chrome and Safari */
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+
+    body{
+    	font-family: "Encode Sans";
     }
+
+    [data-slides] {
+	background-image: url(img/1.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	transition: background-image 1s linear;
+	}
+
+	/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+	.section-definition { min-height: 100%; }
+	@media all and (min-width: 48em) {
+		.section-definition { height: 320px; }
+	}
+
+    /*.section-definition {
+    	background-image: url("img/1.jpg");
+        background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 100%;
+    }*/
 
     .section-definition .display-1 {
       font-size: 2.5rem;
@@ -46,7 +65,7 @@
       font-family: "Encode Sans";
     }
 
-    @keyframes colorchange
+    /*@keyframes colorchange
     {
       0%   {background: #2F80ED;}
       25%  {background: #F2C94C;}
@@ -55,19 +74,26 @@
       100% {background: #EB5757;}
     }
 
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    @-webkit-keyframes 
     {
       0%   {background: #2F80ED;}
       25%  {background: #F2C94C;}
       50%  {background: #BB6BD9;}
       75%  {background: #27AE60;}
       100% {background: #EB5757;}
-    }
+    }*/
 
     .onemore {
-      padding: 8% 20%;
-      margin-top: 4em;
-    }
+    padding: 8% 20%;
+    margin-top: 4em;}
+
+    section.section-comingsoon {
+    padding: 5.63em;
+	}
+
+	section.section-comingsoon h2{
+		font-size: 2em;
+		font-family: "Encode Sans";}
 
     </style>
 
@@ -80,6 +106,7 @@
 
       gtag('config', 'UA-112824305-1');
     </script>
+
   </head>
 
   <body>
@@ -105,7 +132,7 @@
     <!-- Hero Section
     ================================================== -->
 
-    <header class="jumbotron  text-xs-center center-vertically" role="banner">
+    <header class="jumbotron  text-xs-center center-vertically" role="banner" style="background-color: #ffffff;">
       <div class="container">
         <h1 class="display-2">Life is short.<br> Let less be more.</h1>
         <h2 class="m-b-3">We are the clickbait <em>killer!</em></h2>
@@ -174,13 +201,35 @@
     <!-- Definition
     ================================================== -->
 
-    <section class="section-definition text-xs-center center-vertically" role="banner">
+    <section id="scroll-image" class="section-definition text-xs-center center-vertically" data-slides='[
+		"img/1.jpg",
+		"img/2.jpg",
+		"img/3.jpg",
+		"img/4.jpg",
+		"img/5.jpg"
+	]' role="banner">
       <div class="container">
-        <img src="img/mark-logo.svg" style="width: 80px;margin:0 0 7% 0;">
-        <h1 class="display-1">Brewitti (noun); the quality of expressing much in few words.</h1>
+        <img src="img/logo-mark-white.svg" style="width: 50px;margin:0 0 7% 0;">
+        <h1  style="color: #ffffff; font-size: 2em; font-weight: 500; line-height: 2;">Brewitti (noun); <br><em>the quality of expressing much in few words.</em></h1>
       </div>
     </section>
    
+
+
+    <!-- Coming soon
+    ================================================== -->
+
+    <section class="section-comingsoon">
+    	<div class="container">
+    		<h2 class="text-xs-center m-b-3">Get Brewitted soon on</h2>
+    		<div class="text-xs-center">
+    			<img src="img/google-play-badge.png" style="width: 260px;">
+    			<img src="img/appstore-badge.svg" style="width: 200px;">
+    		</div>
+    	</div>
+    </section>
+
+
 
     <!-- Sign Up
     ================================================== -->
@@ -234,5 +283,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/landio.min.js"></script>
+    <script src="js/slideshow.min.js"></script>
   </body>
 </html>
