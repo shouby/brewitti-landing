@@ -1,0 +1,148 @@
+<svg width="600" height="200" viewBox="0 0 600 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>construct</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-12539 632)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 12539 -632L 13139 -632L 13139 -432L 12539 -432L 12539 -632Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="construct" clip-path="url(#clip-0)">
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12555 -591.75)" fill="#F2F2F2"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12575.3 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12595.5 -571.625)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12555 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12575.3 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12595.5 -551.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-4.39455e-08 -1 1 -4.34786e-08 12555 -597.5)" fill="#F2F2F2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12589.7 -557.25)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12589.7 -537.125)" fill="#4F4C59"/>
+</g>
+</g>
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12725 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12745.3 -591.75)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12765.5 -571.625)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12725 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12745.3 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12765.5 -551.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-4.39455e-08 -1 1 -4.34786e-08 12725 -597.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12759.7 -557.25)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12759.7 -537.125)" fill="#4F4C59"/>
+</g>
+</g>
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12896 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12916.3 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12936.5 -571.625)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12896 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12916.3 -531.375)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(12936.5 -551.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-4.39455e-08 -1 1 -4.34786e-08 12896 -597.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12930.7 -557.25)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 12930.7 -537.125)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13066 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13086.3 -591.75)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13106.5 -571.625)" fill="#4F4C59"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13066 -531.375)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13086.3 -531.375)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(13106.5 -551.5)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(-4.39455e-08 -1 1 -4.34786e-08 13066 -597.5)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 13100.7 -557.25)" fill="#4F4C59"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(-1 -8.69571e-08 8.78909e-08 -1 13100.7 -537.125)" fill="#4F4C59"/>
+</g>
+</g>
+<g id="N">
+<use xlink:href="#path3_fill" transform="translate(12570 -481)" fill="#F2F2F2"/>
+</g>
+<g id="E">
+<use xlink:href="#path4_fill" transform="translate(12739 -481)" fill="#F2F2F2"/>
+</g>
+<g id="W">
+<use xlink:href="#path5_fill" transform="translate(12903 -481)" fill="#F2F2F2"/>
+</g>
+<g id="S">
+<use xlink:href="#path6_fill" transform="translate(13084 -481)" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 14.4737 7.1875C 14.4737 11.157 11.2336 14.375 7.23684 14.375C 3.24004 14.375 0 11.157 0 7.1875C 0 3.21795 3.24004 0 7.23684 0C 11.2336 0 14.4737 3.21795 14.4737 7.1875Z"/>
+<path id="path1_fill" d="M 0 7.23684C 0 3.24004 3.24004 0 7.23684 0L 27.2632 0C 31.26 0 34.5 3.24004 34.5 7.23684L 34.5 7.23684C 34.5 11.2336 31.26 14.4737 27.2632 14.4737L 7.23684 14.4737C 3.24005 14.4737 0 11.2336 0 7.23684L 0 7.23684Z"/>
+<path id="path2_fill" d="M 0 7.1875C 0 3.21795 3.21795 0 7.1875 0L 27.5493 0C 31.5189 0 34.7368 3.21795 34.7368 7.1875L 34.7368 7.1875C 34.7368 11.157 31.5189 14.375 27.5493 14.375L 7.1875 14.375C 3.21795 14.375 0 11.157 0 7.1875L 0 7.1875Z"/>
+<path id="path3_fill" d="M 16.668 10.36L 23.256 10.36L 23.256 37L 16.236 37L 8.172 22.186L 8.172 37L 1.584 37L 1.584 10.36L 8.604 10.36L 16.668 25.174L 16.668 10.36Z"/>
+<path id="path4_fill" d="M 8.532 30.988L 19.26 30.988L 19.26 37L 1.584 37L 1.584 10.36L 19.08 10.36L 19.08 16.372L 8.532 16.372L 8.532 20.404L 17.208 20.404L 17.208 26.416L 8.532 26.416L 8.532 30.988Z"/>
+<path id="path5_fill" d="M 29.844 10.36L 36.432 10.36L 30.96 37L 21.816 37L 18.432 19.756L 14.688 37L 5.544 37L 0.072 10.36L 7.164 10.36L 10.728 29.332L 14.688 10.36L 22.32 10.36L 26.046 29.638L 29.844 10.36Z"/>
+<path id="path6_fill" d="M 8.028 37.36C 6.912 37.36 5.73 37.258 4.482 37.054C 3.234 36.862 2.136 36.592 1.188 36.244L 1.188 30.376C 3.516 31.096 5.736 31.456 7.848 31.456C 9.108 31.456 10.02 31.282 10.584 30.934C 11.16 30.574 11.448 30.076 11.448 29.44C 11.448 29.104 11.364 28.81 11.196 28.558C 11.04 28.306 10.758 28.066 10.35 27.838C 9.942 27.61 9.348 27.364 8.568 27.1L 6.408 26.38C 4.572 25.756 3.102 24.796 1.998 23.5C 0.906 22.204 0.36 20.56 0.36 18.568C 0.36 16.78 0.762 15.25 1.566 13.978C 2.37 12.694 3.582 11.71 5.202 11.026C 6.822 10.342 8.832 10 11.232 10C 12.336 10 13.386 10.066 14.382 10.198C 15.39 10.318 16.284 10.492 17.064 10.72L 17.064 16.588C 16.344 16.372 15.54 16.204 14.652 16.084C 13.764 15.964 12.876 15.904 11.988 15.904C 8.964 15.904 7.452 16.612 7.452 18.028C 7.452 18.34 7.518 18.61 7.65 18.838C 7.782 19.054 8.022 19.264 8.37 19.468C 8.718 19.672 9.228 19.888 9.9 20.116L 12.06 20.836C 14.148 21.52 15.75 22.498 16.866 23.77C 17.982 25.042 18.54 26.716 18.54 28.792C 18.54 30.532 18.126 32.05 17.298 33.346C 16.47 34.63 15.264 35.62 13.68 36.316C 12.108 37.012 10.224 37.36 8.028 37.36Z"/>
+</defs>
+</svg>
